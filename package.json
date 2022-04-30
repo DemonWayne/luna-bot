@@ -1,0 +1,31 @@
+{
+  "name": "luna-bot",
+  "version": "0.0.1",
+  "description": "luna tools",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "walton": "node index.js",
+    "walton:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemonWayne/luna-bot.git"
+  },
+  "author": "DemonWayne",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/DemonWayne/luna-bot/issues"
+  },
+  "homepage": "https://github.com/DemonWayne/luna-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.3.1",
+    "mongoose-auto-increment": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
