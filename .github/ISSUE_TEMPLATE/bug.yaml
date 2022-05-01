@@ -18,7 +18,7 @@ body:
     id: bug-run
     attributes:
       label: Как вызвать?
-      description: Шаги вызова бага:
+      description: Шаги вызова бага
       placeholder: [...]
     validations:
       required: false
