@@ -1,0 +1,32 @@
+name: Предложить идею
+description: Предложить идею, как улучшение так и новое.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Напишите отчёт для будущей реализации вашей идеи!
+  - type: textarea
+    id: idea-info
+    attributes:
+      label: Опишите вашу идею
+      description: "Как можно больше и четче опишите вашу идею."
+      placeholder: "[...]"
+    validations:
+      required: true
+  - type: textarea
+    id: idea-release
+    attributes:
+      label: Расскажите как вы представляете её реализацию
+      description: "Какой-либо текст о реализации"
+      placeholder: "Пишу команду /ban @member time reason - после чего упомянутый участник блокируется."
+    validations:
+      required: false
+  - type: textarea
+    id: more-info
+    attributes:
+      label: Доп. Информация
+      description: "Любой другой текст, который поможет нам в реализации вашей идеи"
+      placeholder: "Любое дополнение"
+    validations:
+      required: false
