@@ -1,0 +1,32 @@
+name: Репорт бага
+description: Сообщите нам о баге, чтобы мы его исправили
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Напишите отчёт для будущего исправления ошибки!
+  - type: textarea
+    id: bug-info
+    attributes:
+      label: Опишите баг
+      description: Четкое и краткое описание бага
+      placeholder: [...]
+    validations:
+      required: true
+  - type: textarea
+    id: bug-run
+    attributes:
+      label: Как вызвать?
+      description: Шаги вызова бага:
+      placeholder: [...]
+    validations:
+      required: false
+  - type: textarea
+    id: more-info
+    attributes:
+      label: Доп. Информация
+      description: Любой другой текст, который поможет нам в исправлении бага
+      placeholder: Любое дополнение
+    validations:
+      required: false
